@@ -58,50 +58,8 @@ install(TARGETS ${trajectory_actor_plugin_name}
   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
 )
 
-#############################
-## Follow Actor plugin ##
-#############################
 
-# Create the libFollowActorPlugin.so library.
-set(follow_actor_plugin_name FollowActorPlugin)
-add_library(${follow_actor_plugin_name} SHARED
-  src/FollowActorPlugin.cc
-)
-target_link_libraries(${follow_actor_plugin_name}
-  ${GAZEBO_LIBRARIES}
-  ${roscpp_LIBRARIES}
-  ${catkin_LIBRARIES}
-)
-add_dependencies(${follow_actor_plugin_name}
-  ${PROJECT_NAME}_generate_messages_cpp
-)
-install(TARGETS ${follow_actor_plugin_name}
-  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
-)
 
-#############################
-## Collision Actor plugin ##
-#############################
-
-# Create the libCollisionActorPlugin.so library.
-set(collision_actor_plugin_name CollisionActorPlugin)
-add_library(${collision_actor_plugin_name} SHARED
-  src/CollisionActorPlugin.cc
-)
-target_link_libraries(${collision_actor_plugin_name}
-  ${GAZEBO_LIBRARIES}
-  ${roscpp_LIBRARIES}
-)
-add_dependencies(${collision_actor_plugin_name}
-  ${PROJECT_NAME}_generate_messages_cpp
-)
-install(TARGETS ${collision_actor_plugin_name}
-  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
-)
 
 #############################
 ## Attach Model plugin ##
@@ -126,31 +84,7 @@ install(TARGETS ${attach_model_plugin_name}
 )
 
 
-##########################
-##      Competition     ##
-##########################
 
-# Create the libCompetitionPlugin.so library.
-set(competition_plugin_name CompetitionPlugin)
-add_library(${competition_plugin_name} SHARED
-  src/CompetitionPlugin.cc
-  src/Conversions.cc
-  src/Checkpoint.cc
-  src/CP_DropOff.cc
-  src/CP_PickUp.cc
-  src/PenaltyChecker.cc
-)
-target_link_libraries(${competition_plugin_name}
-  ${GAZEBO_LIBRARIES}
-)
-add_dependencies(${competition_plugin_name}
-  ${PROJECT_NAME}_generate_messages_cpp
-)
-install(TARGETS ${competition_plugin_name}
-  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
-)
 
 #############
 ## Install ##
