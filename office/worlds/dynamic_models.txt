@@ -185,12 +185,12 @@
 
   <!-- Starting pose, nice for when the world is reset -->
   <pose>
-        5.4938
-        14.668087
+        -3.430081
+        7.099664
         1.0
         1.570796
         -0.0
-        3.141593
+        3.141593     
   </pose>
 
   <skin>
@@ -204,15 +204,6 @@
 
   <plugin name="trajectory" filename="libTrajectoryActorPlugin.so">
     
-
-      <target>
-        5.4938
-        14.668087
-        1.0
-        1.570796
-        -0.0
-        3.141593
-      </target>
     
       <target>
         -3.430081
