@@ -25,6 +25,7 @@ Once husky is launched inside Gazebo, you can launch another terminal and procee
 
     roslaunch robot_rviz view_robot.launch
 
+**Control Husky with Teleop**
 Finally, to control it's movement inside Gazebo, launch another terminal to control it using the following command:
 
     rosrun random_husky_driver random_driver
@@ -33,9 +34,9 @@ An alternative to this would be
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 And if you launch using the first method, you could control the husky intuitively using WASD keys, or alternatively, the instruction to control husky is printed in the terminal if you use the second method.
 
-## 4. Dependencies
-
+## 4. Initiating SLAM 
+To initiate SLAM in husky, we have to first convert the pointcloud da
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODMwMDYwNywtOTI1ODY3NjM2LDE4Nj
-I1MDk3MDVdfQ==
+eyJoaXN0b3J5IjpbLTExOTU4MDAwMjAsLTkyNTg2NzYzNiwxOD
+YyNTA5NzA1XX0=
 -->
