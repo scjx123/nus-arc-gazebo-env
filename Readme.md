@@ -52,8 +52,13 @@ odometry -> cohesion -> alpha -> 0
 
 > Husky not appearing in Rviz, after i launched it 
 
-Ensure you have spawned the husky in Gazebo before launching it
+Ensure you have spawned the husky in Gazebo before visualizing it in Rviz 
+
+> No data coming in from Gmapping after i launched it 
+
+Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM3Njc5NCwtMTc3OTM1MDgzMiwtOT
+eyJoaXN0b3J5IjpbMTE1OTM0MTQ3MSwtMTc3OTM1MDgzMiwtOT
 I1ODY3NjM2LDE4NjI1MDk3MDVdfQ==
 -->
