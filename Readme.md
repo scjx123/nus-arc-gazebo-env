@@ -1,10 +1,11 @@
 
 # NUS ARC Summer Project 2020
 ![Investing in the Robotics Sector – CHRONICLING THE ROBOT INDUSTRY](https://robotrabbi.com/wp-content/uploads/2015/03/clearpath-robotics-husky-e1426720202779-1940x1092.jpg)
- 1. Brief Overview 
+
+ **1. Brief Overview 
  2. Gazebo Environment
  3. Gazebo Robot 
- 4. Dependencies 
+ 4. Dependencies** 
 
 ## 1. Brief Overview
 This documentation includes a list of commands to initiate the simulation of an indoor office environment in Gazebo, using the Clearpath Husky Robot. 
@@ -64,7 +65,7 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzY5MDA1MCwzNTM3MTAyMTksMTE1OT
+eyJoaXN0b3J5IjpbLTMwMDE4MjQ4NCwzNTM3MTAyMTksMTE1OT
 M0MTQ3MSwtMTc3OTM1MDgzMiwtOTI1ODY3NjM2LDE4NjI1MDk3
 MDVdfQ==
 -->
