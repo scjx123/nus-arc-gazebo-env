@@ -13,7 +13,8 @@ This documentation includes a list of commands to initiate the simulation of an 
 
 To begin, launch a terminal for roscore. Next, launch another terminal and source the devel/setup.bash in for the file containing the source folder. There are 2 available Gazebo environment, one with humans walking around and one without. To launch the first environment, use the following command in the newly launched terminal: 
 
-    roslaunch office indoor_of
+    roslaunch office indoor_office_actors.launch
+ If there is an error, navigate to ~/nus-arc-gazebo-env/office/launch and do a roslaunch from the folder itself. 
 
 ## 3. Gazebo Robot
 Upon launching the environment, the following section will cover spawning husky into the gazebo, launching it in Rviz and controlling it with Teleop commands. 
@@ -63,6 +64,6 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc2MTY5NjQsMTE1OTM0MTQ3MSwtMT
-c3OTM1MDgzMiwtOTI1ODY3NjM2LDE4NjI1MDk3MDVdfQ==
+eyJoaXN0b3J5IjpbMjk4NzUzNzExLDExNTkzNDE0NzEsLTE3Nz
+kzNTA4MzIsLTkyNTg2NzYzNiwxODYyNTA5NzA1XX0=
 -->
