@@ -12,7 +12,8 @@ This documentation includes a list of commands to initiate the simulation of an 
 
 ## 3. Gazebo Robot
 
+
 5. Dependencies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Njg5OTY4NV19
+eyJoaXN0b3J5IjpbMTg2MjUwOTcwNV19
 -->
