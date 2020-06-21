@@ -24,6 +24,7 @@ To spawn husky, ensure that you have sourced the src file to devel/setup. Then, 
 Once husky is launched inside Gazebo, you can launch another terminal and proceed to visualize it in Rviz using this command:
 
     roslaunch robot_rviz view_robot.launch
+The Rviz is able to visualize husky robot, view the map that it has scanned through Gmapping and the camera view that is mounted on it. Gmapping will be explained detail in this document while the camera wi
 
 **Control Husky with Teleop**
 Finally, to control it's movement inside Gazebo, launch another terminal to control it using the following command:
@@ -59,6 +60,6 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTM0MTQ3MSwtMTc3OTM1MDgzMiwtOT
-I1ODY3NjM2LDE4NjI1MDk3MDVdfQ==
+eyJoaXN0b3J5IjpbMzgyOTIxMzUzLDExNTkzNDE0NzEsLTE3Nz
+kzNTA4MzIsLTkyNTg2NzYzNiwxODYyNTA5NzA1XX0=
 -->
