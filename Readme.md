@@ -50,8 +50,9 @@ To have a better view of the map, you could control the following parameters in 
 odometry -> position -> alpha -> 0
 odometry -> cohesion -> alpha -> 0 
 
-To give 
+> "After launching Rviz, i'm not able to see my robot in it" 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMwMDE2NDQsLTE3NzkzNTA4MzIsLT
-kyNTg2NzYzNiwxODYyNTA5NzA1XX0=
+eyJoaXN0b3J5IjpbMTk5NjIyODYzMCwtMTc3OTM1MDgzMiwtOT
+I1ODY3NjM2LDE4NjI1MDk3MDVdfQ==
 -->
