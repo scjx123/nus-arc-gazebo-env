@@ -15,12 +15,13 @@ start with roscore
 ## 3. Gazebo Robot
 Upon launching the environment, the following section will cover spawning husky into the gazebo, launching it in Rviz and controlling it with Teleop commands. 
 
-Spawn Husky into Gazebo
+**Spawn Husky into Gazebo**
 To spawn husky, ensure that you have sourced the src file to devel/setup. Then, simply use the following command:
 
     roslaunch robot_gazebo spawn_husky.launch
 
- Once husky is launched inside Gazebo, you can launch another terminal and proceed to visualize it in Rviz using this command:
+**Launching in Rviz**
+Once husky is launched inside Gazebo, you can launch another terminal and proceed to visualize it in Rviz using this command:
 
     roslaunch robot_rviz view_robot.launch
 
@@ -30,9 +31,11 @@ Finally, to control it's movement inside Gazebo, launch another terminal to cont
 An alternative to this would be 
 
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-And if you launch using the first method, you could control the husky intuitively using 
-5. Dependencies 
+And if you launch using the first method, you could control the husky intuitively using WASD keys, or alternatively, the instruction to control husky is printed in the terminal if you use the second method.
+
+## 4. Dependencies
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY2MTQyODcsLTkyNTg2NzYzNiwxOD
-YyNTA5NzA1XX0=
+eyJoaXN0b3J5IjpbLTk5ODMwMDYwNywtOTI1ODY3NjM2LDE4Nj
+I1MDk3MDVdfQ==
 -->
