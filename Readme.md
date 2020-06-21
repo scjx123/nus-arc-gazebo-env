@@ -35,12 +35,12 @@ An alternative to this would be
 And if you launch using the first method, you could control the husky intuitively using WASD keys, or alternatively, the instruction to control husky is printed in the terminal if you use the second method.
 
 ## 4. Initiating SLAM 
-To initiate SLAM in husky, we have to first convert the 3D pointcloud data colelcted from the Velodyne-16 into a 2D laserscan data. To do that, we could use the following command: 
+To initiate SLAM in husky, we have to first convert the 3D pointcloud data collected from the Velodyne-16 into a 2D laserscan data. To do that, we could using the following command: 
 
     roslaunch pointcloud_to_laserscan sample_node.launch
  
-
+Next, open up a new terminal, launch your algorithm for testing. By default, let's use Gmapping. It is located in the robot_navi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAxOTgzMzYsLTkyNTg2NzYzNiwxOD
+eyJoaXN0b3J5IjpbLTEzMDAxMTg4OTcsLTkyNTg2NzYzNiwxOD
 YyNTA5NzA1XX0=
 -->
