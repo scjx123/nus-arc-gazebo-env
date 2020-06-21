@@ -46,8 +46,11 @@ We now have a fully working robot, that is able to control through your teleop t
 
 ## 5. Tips and Troubleshooting
 To have a better view of the map, you could control the following parameters in Rviz, 
-odometry ->
+odometry -> position -> alpha -> 0
+odometry -> cohesion -> alpha -> 0 
+
+To give 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjQ2MzQzMywtOTI1ODY3NjM2LDE4Nj
-I1MDk3MDVdfQ==
+eyJoaXN0b3J5IjpbLTE3NzkzNTA4MzIsLTkyNTg2NzYzNiwxOD
+YyNTA5NzA1XX0=
 -->
