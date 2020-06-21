@@ -9,8 +9,9 @@
 ## 1. Brief Overview
 This documentation includes a list of commands to initiate the simulation of an indoor office environment in Gazebo, using the Clearpath Husky Robot. 
 
-2. Gazebo Environment
-start with roscore 
+## 2. Gazebo Environment
+
+To begin, launch a terminal for roscore. Next, source the devel/setup.bash in for the file containing the source folder. There are 2 available Gazebo environment, one with humans walking around and one without. To launch the first en
 
 ## 3. Gazebo Robot
 Upon launching the environment, the following section will cover spawning husky into the gazebo, launching it in Rviz and controlling it with Teleop commands. 
@@ -60,6 +61,6 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjgyNTQ4OTQsMTE1OTM0MTQ3MSwtMT
+eyJoaXN0b3J5IjpbLTEzOTgwNzQ3NDAsMTE1OTM0MTQ3MSwtMT
 c3OTM1MDgzMiwtOTI1ODY3NjM2LDE4NjI1MDk3MDVdfQ==
 -->
