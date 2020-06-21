@@ -11,9 +11,8 @@ This documentation includes a list of commands to initiate the simulation of an 
 2. Gazebo Environment
 
 ## 3. Gazebo Robot
-
-
+Upon launching the environment we will do the following steps to spawn the husky robot and its feature 
 5. Dependencies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjUwOTcwNV19
+eyJoaXN0b3J5IjpbLTkyNTg2NzYzNiwxODYyNTA5NzA1XX0=
 -->
