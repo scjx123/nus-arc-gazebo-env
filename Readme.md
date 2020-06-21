@@ -39,8 +39,12 @@ To initiate SLAM in husky, we have to first convert the 3D pointcloud data colle
 
     roslaunch pointcloud_to_laserscan sample_node.launch
  
-Next, open up a new terminal, launch your algorithm for testing. By default, let's use Gmapping. It is located in the robot_navi 
+Next, open up a new terminal, launch your algorithm for testing. By default, let's use Gmapping. It is located in the *robot_navigation* folder, and we can initiate it using this command: 
+
+    roslaunch robot_navigation gmapping_demo.launch
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAxMTg4OTcsLTkyNTg2NzYzNiwxOD
-YyNTA5NzA1XX0=
+eyJoaXN0b3J5IjpbLTcwMTAzODc2MywtOTI1ODY3NjM2LDE4Nj
+I1MDk3MDVdfQ==
 -->
