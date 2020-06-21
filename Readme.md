@@ -43,10 +43,11 @@ Next, open up a new terminal, launch your algorithm for testing. By default, let
 
     roslaunch robot_navigation gmapping_demo.launch
 We now have a fully working robot, that is able to control through your teleop terminal and view its mapping through Rviz. The next section will cover some tips for map viewing and troubleshooting. 
-5. Tips and troubleshooting
-6. 
 
+## 5. Tips and Troubleshooting
+To have a better view of the map, you could control the following parameters in Rviz, 
+odometry ->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA0NjUwOTksLTkyNTg2NzYzNiwxOD
-YyNTA5NzA1XX0=
+eyJoaXN0b3J5IjpbMTc2NjQ2MzQzMywtOTI1ODY3NjM2LDE4Nj
+I1MDk3MDVdfQ==
 -->
