@@ -27,9 +27,12 @@ To spawn husky, ensure that you have sourced the src file to devel/setup. Then, 
 Finally, to control it's movement inside Gazebo, launch another terminal to control it using the following command:
 
     rosrun random_husky_driver random_driver
-This is a 
+An alternative to this would be 
+
+    rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+And if you launch using the first method, you could control the husky intuitively using 
 5. Dependencies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyOTEyMDczLC05MjU4Njc2MzYsMTg2Mj
-UwOTcwNV19
+eyJoaXN0b3J5IjpbLTE4MTY2MTQyODcsLTkyNTg2NzYzNiwxOD
+YyNTA5NzA1XX0=
 -->
