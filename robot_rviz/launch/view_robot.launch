@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robot_rviz)/rviz/robot.rviz" output="screen"/>
+</launch>
+
+<!--launch>
+    <param name="robot_description" command="$(find xacro)/xacro.py '$(find robot_description)/urdf/husky.urdf.xacro'"/>
+
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+ 
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find husky_viz)/rviz/robot.rviz" output="screen"/>
+</launch-->
