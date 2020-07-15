@@ -16,10 +16,11 @@ This documentation includes a list of commands to initiate the simulation of an 
 
 To begin, start by git cloning the [repository folder](https://github.com/felixjhmong/nus-arc-gazebo-env) into your src folder. follow by 
 
-cd ..
-catkin_make 
+    cd ..
+    catkin_make 
 
-Once completed, check that your *src* folder current 
+Once completed, check that your *src* folder current source folder contains the following: 
+
 If you encountered error during catkin_make, check the errors generated and try to install any missing dependencies. Alternatively do contact any of the team members for assistance. 
 
 ## 3. Gazebo Environment
@@ -77,8 +78,8 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM0NjU2ODksLTE4OTEzNDM5MTEsMT
-I1NTc1MzAzMiwtMzAwMTgyNDg0LDM1MzcxMDIxOSwxMTU5MzQx
-NDcxLC0xNzc5MzUwODMyLC05MjU4Njc2MzYsMTg2MjUwOTcwNV
-19
+eyJoaXN0b3J5IjpbLTg4MjQyOTMzMSwtMTg5MTM0MzkxMSwxMj
+U1NzUzMDMyLC0zMDAxODI0ODQsMzUzNzEwMjE5LDExNTkzNDE0
+NzEsLTE3NzkzNTA4MzIsLTkyNTg2NzYzNiwxODYyNTA5NzA1XX
+0=
 -->
