@@ -36,7 +36,7 @@ If you encountered error during catkin_make, check the errors generated and try 
 
 ## 3. Gazebo Environment
 
-To begin, launch a terminal for roscore. Next, launch another terminal and source the devel/setup.bash in for the file containing the source folder. There are 2 available Gazebo environment, one with humans walking around and one without. To launch the first environment, use the following command in the newly launched terminal: 
+To begin, **launch a terminal for roscore.** Next, **launch another terminal** and source the devel/setup.bash in for the file containing the source folder. There are 2 available Gazebo environment, one with humans walking around and one without. To launch the first environment, use the following command in the newly launched terminal: 
 
     roslaunch office indoor_office_actors.launch
  If there is an error, navigate to *~/nus-arc-gazebo-env/office/launch* and do a roslaunch from the folder itself. The other file in the same folder has no dynamic models in it and it can be launched using the same method stated above. 
@@ -45,7 +45,7 @@ To begin, launch a terminal for roscore. Next, launch another terminal and sourc
 Upon launching the environment, the following section will cover spawning husky into the gazebo, launching it in Rviz and controlling it with Teleop commands. 
 
 **Spawn Husky into Gazebo**
-To spawn husky, ensure that you have sourced the src file to devel/setup. Then, simply use the following command:
+To spawn husky, **ensure that you have sourced the src file to devel/setup.** Then, simply use the following command:
 
     roslaunch robot_gazebo spawn_husky.launch
 
@@ -89,7 +89,7 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzA3NTg4MywxNjU0NTI3Nzc1LC0xOD
+eyJoaXN0b3J5IjpbMTczNTgxMzczOSwxNjU0NTI3Nzc1LC0xOD
 kxMzQzOTExLDEyNTU3NTMwMzIsLTMwMDE4MjQ4NCwzNTM3MTAy
 MTksMTE1OTM0MTQ3MSwtMTc3OTM1MDgzMiwtOTI1ODY3NjM2LD
 E4NjI1MDk3MDVdfQ==
