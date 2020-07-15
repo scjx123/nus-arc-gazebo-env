@@ -19,7 +19,7 @@ To begin, start by git cloning the [repository folder](https://github.com/felixj
     cd ..
     catkin_make 
 
-Once completed, check that your *src* folder current source folder contains the following items: 
+Once completed, check that your *src* folder contains the following items: 
 
  - nus-arc-gazebo-env
  - pointcloud_to_laserscan
@@ -89,8 +89,8 @@ Ensure you have spawned the husky in Gazebo before visualizing it in Rviz
 Check whether you have launched a terminal for *pointcloud_to_laserscan* in order for gmapping to receive 2D data. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDUyNzc3NSwtMTg5MTM0MzkxMSwxMj
-U1NzUzMDMyLC0zMDAxODI0ODQsMzUzNzEwMjE5LDExNTkzNDE0
-NzEsLTE3NzkzNTA4MzIsLTkyNTg2NzYzNiwxODYyNTA5NzA1XX
-0=
+eyJoaXN0b3J5IjpbMjA1NzA3NTg4MywxNjU0NTI3Nzc1LC0xOD
+kxMzQzOTExLDEyNTU3NTMwMzIsLTMwMDE4MjQ4NCwzNTM3MTAy
+MTksMTE1OTM0MTQ3MSwtMTc3OTM1MDgzMiwtOTI1ODY3NjM2LD
+E4NjI1MDk3MDVdfQ==
 -->
